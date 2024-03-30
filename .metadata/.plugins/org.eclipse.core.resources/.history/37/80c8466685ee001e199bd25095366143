@@ -1,0 +1,12 @@
+package day5;
+
+import io.restassured.response.Response;
+import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
+
+public class testXMLresponse {
+	Response res = given().contentType("ContentType.json")
+
+			.when().get("http://localhost:3000/store");
+}

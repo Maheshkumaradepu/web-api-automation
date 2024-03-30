@@ -7,7 +7,6 @@
     <fullyQualifiedTypeName name="org.junit.Assert"/>
     <fullyQualifiedTypeName name="seleniumcompleteframework.PageobjectModal.LandingPage"/>
     <fullyQualifiedTypeName name="seleniumcompleteframework.PageobjectModal.ProductCatalog"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="seleniumcompleteframework.PageobjectModal.CartPage"/>
     <fullyQualifiedTypeName name="seleniumcompleteframework.PageobjectModal.ShippingPage"/>
     <fullyQualifiedTypeName name="seleniumcompleteframework.AbstractComponents.Abstractcomponents"/>
@@ -31,7 +30,6 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="com.crm.qa.base.TestBase"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
-    <fullyQualifiedTypeName name="org.testng.Assert"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
     <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.exc.InvalidFormatException"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
@@ -40,14 +38,18 @@
     <fullyQualifiedTypeName name="com.google.common.collect.Table.Cell"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="org.json.JSONObject"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="org.json.JSONTokener"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="io.restassured.response.Response"/>
     <fullyQualifiedTypeName name="io.restassured.http.Headers"/>
     <fullyQualifiedTypeName name="io.restassured.http.Header"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
     <fullyQualifiedTypeName name="day3.LoggingDemo"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="io.restassured.response.Response"/>
+    <fullyQualifiedTypeName name="org.testng.Assert"/>
+    <fullyQualifiedTypeName name="org.json.JSONObject"/>
+    <fullyQualifiedTypeName name="org.mozilla.javascript.xml.XMLObject"/>
+    <fullyQualifiedTypeName name="io.restassured.path.xml.XmlPath"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

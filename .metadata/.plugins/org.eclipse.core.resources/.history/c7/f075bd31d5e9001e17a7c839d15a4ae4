@@ -1,0 +1,22 @@
+package day1;
+import io.restassured.RestAssured.*;
+import io.restassured.matcher.RestAssuredMatchers.*;
+import org.hamcrest.Matchers.*;
+public class HTTPRequest {
+
+	void getUsers() {
+		
+		given()
+		
+		.when()
+		   .get("https://reqres.in/api/users?page=2")
+		     
+		.then()
+		   .statusCode(200)
+		   .body("page",equalTo(2))
+		   .log.all();
+		
+	}
+	
+	
+}

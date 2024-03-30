@@ -1,0 +1,27 @@
+package day2;
+
+import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
+
+import java.util.HashMap;
+
+/*we have 4 different ways
+ * 1.HashMap
+ * 2.Org.Json
+ * 3.POJO class
+ *  4.JSON data 
+ *  */
+public class WaysToCreatePostrequest {
+
+	void testPostusingHashMap() {
+
+		HashMap<String, String> data = new HashMap<String, String>();
+		data.put("name", "scott");
+		data.put("loaction", "bhadurpally");
+		data.put("phone", "1223214341241");
+		String[] courseArr = { "C++", "JAVA" };
+		data.put("cources", "courseArr");
+	}
+
+}

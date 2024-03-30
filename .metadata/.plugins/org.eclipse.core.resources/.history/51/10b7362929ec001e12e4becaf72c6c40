@@ -1,0 +1,20 @@
+package day3;
+
+import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
+
+public class PathandQueryParameters {
+
+	void pathParameters() {
+		
+		
+		
+		given()
+		.pathParam("my_path","users");
+		
+		.when().then();
+		
+	}
+
+}

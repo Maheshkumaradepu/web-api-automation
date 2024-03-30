@@ -1,0 +1,21 @@
+package day4;
+
+import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
+
+import org.testng.annotations.Test;
+
+public class ParsingJsonResponse {
+
+	@Test
+	void testJsonResponse() {
+		given().contentType("application/json")
+
+				.when().get("http://localhost:3000/store")
+
+				.then().statusCode(200).header("Content-Type", "application/json")
+				.body("books[2].title", equalTo("The Lord of the Rings")).log().all();
+
+	}
+}

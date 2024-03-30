@@ -1,0 +1,16 @@
+package day3;
+
+public class CookiesDemo {
+
+	
+	
+	void getCookies() {
+		
+		given()
+		.when().get("https:google.com")
+		.then().statuscode(200).log().all();
+		
+		
+		
+	}
+}

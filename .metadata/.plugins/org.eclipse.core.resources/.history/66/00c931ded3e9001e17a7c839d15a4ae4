@@ -1,0 +1,19 @@
+package day1;
+import io.restassured.RestAssured.*
+import io.restassured.matcher.RestAssuredMatchers.*
+import org.hamcrest.Matchers.*
+public class HTTPRequest {
+
+	void getUser() {
+		
+		given()
+		
+		when()
+		
+		then()
+		
+		
+	}
+	
+	
+}

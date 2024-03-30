@@ -1,0 +1,32 @@
+package day1;
+
+import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
+
+import java.util.HashMap;
+
+import org.testng.annotations.Test;
+
+public class HTTPRequest {
+
+	@Test
+	void getUsers() {
+		given()
+
+				.when().get("https://reqres.in/api/users?page=2")
+
+				.then().statusCode(200).body("page", equalTo(2)).log().all();
+
+	}
+
+	@Test
+	void createUser() {
+		HashMap<String, String> data = new HashMap<String, String>();
+		data.put("name", "mahesh");
+		data.put("job", "engineer");
+		given().when().post("https://reqres.in/api/users").then().statusCode(201).log().all();
+
+	}
+
+}

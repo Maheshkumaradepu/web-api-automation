@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-25T14:15:59 IST" name="Default suite" finished-at="2023-11-25T14:16:29 IST" duration-ms="30199">
+    <groups>
+    </groups>
+    <test started-at="2023-11-25T14:15:59 IST" name="Default test" finished-at="2023-11-25T14:16:29 IST" duration-ms="30199">
+      <class name="seleniumcompleteframework.Tests.PomStandaloneTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumcompleteframework.Tests.PomStandaloneTest@2667f029]" started-at="2023-11-25T14:15:59 IST" name="launchApplication" finished-at="2023-11-25T14:16:12 IST" duration-ms="13234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitorder()[pri:0, instance:seleniumcompleteframework.Tests.PomStandaloneTest@2667f029]" started-at="2023-11-25T14:16:12 IST" name="submitorder" finished-at="2023-11-25T14:16:29 IST" duration-ms="16918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+      </class> <!-- seleniumcompleteframework.Tests.PomStandaloneTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

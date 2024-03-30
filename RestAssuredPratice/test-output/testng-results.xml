@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-30T15:09:13 IST" name="Default suite" finished-at="2024-03-30T15:09:16 IST" duration-ms="3348">
+    <groups>
+    </groups>
+    <test started-at="2024-03-30T15:09:13 IST" name="Default test" finished-at="2024-03-30T15:09:16 IST" duration-ms="3348">
+      <class name="day4.ParsingJsonResponse">
+        <test-method signature="testJsonResponse()[pri:0, instance:day4.ParsingJsonResponse@1afd44cb]" started-at="2024-03-30T15:09:13 IST" name="testJsonResponse" finished-at="2024-03-30T15:09:16 IST" duration-ms="3206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJsonResponse -->
+      </class> <!-- day4.ParsingJsonResponse -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
